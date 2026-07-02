@@ -12,7 +12,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import Chroma
 
-from langchain_classic.chains import RetrievalQA
+# from langchain_classic.chains import RetrievalQA
+from langchain.chains import RetrievalQA
 from langchain_core.prompts import ChatPromptTemplate
 
 # Disable warnings and info logs
